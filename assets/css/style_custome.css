@@ -90,3 +90,69 @@ padding: 14px 0;
 .terra_post_pagination .wp-block-query-pagination-numbers{
     display: flex;
 }
+
+.terra_menu li a {
+    margin-left: 36px;
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    transition: all 0.1s linear;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+}
+
+.terra_menu li a:hover{
+    color: #553BF9;
+}
+
+.taxonomy-category a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #677789;
+    border-radius: 5px;
+    background: transparent;
+    text-align: center;
+    padding: 0px 20px;
+    display: inline-block;
+    border: 1px solid #e0e1e3;
+    margin: 5px 3px;
+    transition: all 0.2s linear;
+    text-decoration: none !important;
+}
+
+.taxonomy-post_tag a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #677789;
+    border-radius: 5px;
+    background: transparent;
+    text-align: center;
+    padding: 0px 20px;
+    display: inline-block;
+    border: 1px solid #e0e1e3;
+    margin: 5px 3px;
+    transition: all 0.2s linear;
+    text-decoration: none !important;
+}
+
+.blog_post_date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4c4c63;
+    font-family: "Manrope", sans-serif;
+    display: inline-block;
+    position: relative;
+    padding-right: 9px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.author .wp-block-post-author{
+    background-color: #cccccc82;
+    padding: 25px;
+    border-radius: 5px;
+}
